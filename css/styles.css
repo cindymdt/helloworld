@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+header {
+  background: linear-gradient(135deg, #6C63FF, #00BFA6);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+header h2 {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+header a.button {
+  display: inline-block;
+  background-color: white;
+  color: #6C63FF;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+header a.button:hover {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #6C63FF;
+}
+
+
+.about p {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+
+.certifications {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.cert-card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.cert-card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.cert-card h4 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.cert-card p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
+footer {
+  background-color: #6C63FF;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+
+@media(max-width:600px){
+  header h1 {
+    font-size: 2.2rem;
+  }
+  header h2 {
+    font-size: 1.2rem;
+  }
+}
