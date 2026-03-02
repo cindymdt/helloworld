@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cindy Disla | Front-End Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Cindy Disla</h1>
+    <h2>Front-End Developer | Full-Stack Trained</h2>
+    <a href="#certifications" class="button">Certifications</a>
+  </header>
+
+  <main>
+    
+    <section class="about">
+      <h3>About</h3>
+      <p>
+        Curiosity and a passion for solving problems have motivated me since I was a child. 
+        My brother has been a great source of inspiration, encouraging me to pursue growth 
+        and never stop learning. I enjoy creating tools that make life easier and more productive, 
+        and I am constantly looking for ways to improve processes and results.
+      </p>
+
+      <p>
+        The most fulfilling aspect of development, in my opinion, is completing a project 
+        that not only meets requirements but also reflects dedication and thoughtful design. 
+        There is nothing more rewarding than seeing hard work turn into meaningful results.
+      </p>
+
+      <p>
+        I am skilled in HTML, CSS, JavaScript, and React. I enjoy learning new technologies 
+        and building innovative, responsive, and user-friendly interfaces while optimizing 
+        performance and user experience.
+      </p>
+    </section>
+
+    <section id="certifications">
+      <h3>Certifications</h3>
+      <div class="certifications">
+
+        <div class="cert-card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Codecademy_logo.png" alt="Codecademy Logo">
+          <h4>Learn HTML Course</h4>
+          <p>Codecademy — February 2026</p>
+        </div>
+
+        <div class="cert-card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/FreeCodeCamp_logo.png" alt="freeCodeCamp Logo">
+          <h4>Responsive Web Design</h4>
+          <p>freeCodeCamp — February 2026</p>
+        </div>
+
+        <div class="cert-card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Logo">
+          <h4>IBM Full Stack Software Developer</h4>
+          <p>IBM — August 2025</p>
+        </div>
+
+        <div class="cert-card">
+          <img src="https://www.indotel.gob.do/sites/default/files/indotel_logo.png" alt="INDOTEL Logo">
+          <h4>Full Stack Web Development – Intermediate Level</h4>
+          <p>Dominican Institute of Telecommunications (INDOTEL) — February 2025</p>
+        </div>
+
+        <div class="cert-card">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/EF_logo.png" alt="EF SET Logo">
+          <h4>EF SET English Certificate – C1 Advanced</h4>
+          <p>September 2025</p>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Cindy Disla | Front-End Developer</p>
+  </footer>
+
+</body>
+</html>
